@@ -127,6 +127,9 @@ add_node_config() {
                 "DNSEnv": {
                     "EnvName": "env1"
                 }
+            },
+            "ControllerConfig": {
+                "UpdatePeriodic": 60
             }
         },
 EOF
@@ -156,6 +159,9 @@ EOF
                 "DNSEnv": {
                     "EnvName": "env1"
                 }
+            },
+            "ControllerConfig": {
+                "UpdatePeriodic": 60
             }
         },
 EOF
@@ -184,6 +190,9 @@ EOF
                 "DNSEnv": {
                     "EnvName": "env1"
                 }
+            },
+            "ControllerConfig": {
+                "UpdatePeriodic": 60
             }
         },
 EOF
